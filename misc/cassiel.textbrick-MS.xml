@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+
+<pattrstorage name = "MS">
+	<slot number = "1">
+		<pattr name = "MULTISLIDEREXAMPLE" value = "TextBrick.PATTR.1 10 1 OSC 1 FM 1 WG 1 VCF 1 VCA 1 ENV 2 LFO 1 2 LFO 2 2 BBC TV 1 CSI:NY" />
+	</slot>
+</pattrstorage>
+

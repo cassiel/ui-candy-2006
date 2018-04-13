@@ -1,0 +1,24 @@
+{
+    "author" : "Nick Rothwell",
+    "description" : "UI components refreshed from 2006.",
+    "homepatcher" : "cassiel.ui-candy-2006.maxpat",
+    "max_version_min" : "7.0", "max_version_max" : "none",
+    "name" : "cassiel.textbrick",
+    "os" : {
+        "macintosh" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        },
+        "windows" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        }
+    },
+    "package_extra" : {
+        "reverse_domain" : "com.cassiel",
+        "copyright" : "Copyright (c) 2018 Cassiel.com Limited"
+    },
+    "tags" : [ ],
+    "version" : "1.0.0",
+    "website" : "http://cassiel.com"
+}

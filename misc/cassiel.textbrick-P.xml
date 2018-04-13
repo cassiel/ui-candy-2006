@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+
+<pattrstorage name = "PattrExample">
+	<slot number = "1">
+		<pattr name = "TRACYS" value = "TextBrick.PATTR.1 5 1 Scott 0 0 0 0" />
+	</slot>
+	<slot number = "2">
+		<pattr name = "TRACYS" value = "TextBrick.PATTR.1 1 1 Virgil" />
+	</slot>
+	<slot number = "3">
+		<pattr name = "TRACYS" value = "TextBrick.PATTR.1 2 1 Alan 3 (the youngest one)" />
+	</slot>
+	<slot number = "4">
+		<pattr name = "TRACYS" value = "TextBrick.PATTR.1 1 1 Gordon" />
+	</slot>
+	<slot number = "5">
+		<pattr name = "TRACYS" value = "TextBrick.PATTR.1 5 1 John 1 on 1 the 1 space 1 station" />
+	</slot>
+</pattrstorage>
+
