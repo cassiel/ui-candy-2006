@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 103.0, 135.0, 824.0, 448.0 ],
+		"rect" : [ 154.0, 167.0, 824.0, 448.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -224,43 +224,49 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.960784, 0.827451, 0.156863, 0.3 ],
 					"fontsize" : 14.0,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 25.0, 173.0, 20.0 ],
+					"patching_rect" : [ 420.0, 25.0, 180.0, 20.0 ],
 					"style" : "",
 					"text" : "cassiel.krellmixer",
-					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.960784, 0.827451, 0.156863, 0.3 ],
 					"fontsize" : 14.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 25.0, 173.0, 20.0 ],
+					"patching_rect" : [ 225.0, 25.0, 180.0, 20.0 ],
 					"style" : "",
 					"text" : "cassiel.nixies",
-					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.960784, 0.827451, 0.156863, 0.3 ],
 					"fontsize" : 14.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 25.0, 173.0, 20.0 ],
+					"patching_rect" : [ 30.0, 25.0, 180.0, 20.0 ],
 					"style" : "",
 					"text" : "cassiel.textbrick",
-					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -478,9 +484,8 @@
 		"styles" : [ 			{
 				"name" : "cassiel",
 				"default" : 				{
-					"fontname" : [ "Courier" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"patchlinecolor" : [ 0.960784, 0.827451, 0.156863, 0.9 ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -492,6 +497,7 @@
 						"autogradient" : 0
 					}
 ,
+					"fontname" : [ "Courier" ],
 					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -502,10 +508,10 @@
 , 			{
 				"name" : "cassiel-1",
 				"default" : 				{
-					"fontname" : [ "Courier" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"patchlinecolor" : [ 0.960784, 0.827451, 0.156863, 0.9 ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"fontface" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -516,10 +522,10 @@
 						"autogradient" : 0
 					}
 ,
+					"fontname" : [ "Courier" ],
 					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-					"fontface" : [ 0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -528,8 +534,8 @@
 , 			{
 				"name" : "laura-ashley",
 				"default" : 				{
-					"bgcolor" : [ 0.997536, 0.883331, 0.611546, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.997536, 0.883331, 0.611546, 1.0 ],
 					"accentcolor" : [ 0.862745, 0.741176, 0.137255, 1.0 ]
 				}
 ,

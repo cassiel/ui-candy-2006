@@ -3,7 +3,7 @@
     "description" : "UI components refreshed from 2006.",
     "homepatcher" : "cassiel.ui-candy-2006.maxpat",
     "max_version_min" : "7.0", "max_version_max" : "none",
-    "name" : "cassiel.textbrick",
+    "name" : "cassiel.ui-candy-2006",
     "os" : {
         "macintosh" : {
             "platform" : [ "ia32", "x64" ],
