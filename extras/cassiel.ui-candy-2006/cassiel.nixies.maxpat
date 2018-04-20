@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 85.0, 146.0, 1163.0, 600.0 ],
+		"rect" : [ 369.0, 383.0, 1163.0, 600.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -73,7 +73,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 400.0, 83.0, 20.0 ],
+					"patching_rect" : [ 405.0, 400.0, 89.0, 20.0 ],
 					"style" : "cassiel",
 					"triscale" : 0.9
 				}
@@ -95,7 +95,7 @@
 ,
 					"style" : "cassiel",
 					"text" : "pattrstorage",
-					"varname" : "u133000421"
+					"varname" : "u164001071"
 				}
 
 			}
@@ -114,7 +114,7 @@
 ,
 					"style" : "cassiel",
 					"text" : "autopattr",
-					"varname" : "u898000436"
+					"varname" : "u598001084"
 				}
 
 			}
@@ -334,7 +334,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 241.0, 72.0, 147.0, 20.0 ],
 					"style" : "cassiel",
-					"text" : "metro 999 @active 1"
+					"text" : "metro 100 @active 1"
 				}
 
 			}
@@ -577,10 +577,9 @@
 		"styles" : [ 			{
 				"name" : "cassiel",
 				"default" : 				{
-					"fontname" : [ "Courier" ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"patchlinecolor" : [ 0.960784, 0.827451, 0.156863, 0.9 ],
 					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"fontface" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -591,10 +590,11 @@
 						"autogradient" : 0
 					}
 ,
+					"fontname" : [ "Courier" ],
 					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-					"fontface" : [ 0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
