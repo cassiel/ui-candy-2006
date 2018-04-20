@@ -1,6 +1,6 @@
 {
     "author" : "Nick Rothwell",
-    "description" : "UI components refreshed from 2006.",
+    "description" : "Assorted JSUI-based user interface elements for Max, dating from Max 4-based project work undertaken around 2006.",
     "homepatcher" : "cassiel.ui-candy-2006.maxpat",
     "max_version_min" : "7.0", "max_version_max" : "none",
     "name" : "cassiel.ui-candy-2006",
@@ -18,7 +18,7 @@
         "reverse_domain" : "com.cassiel",
         "copyright" : "Copyright (c) 2018 Cassiel.com Limited"
     },
-    "tags" : [ ],
+    "tags" : [ "User Interface", "Utilities" ],
     "version" : "1.0.0",
     "website" : "http://cassiel.com"
 }
