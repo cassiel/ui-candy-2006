@@ -15,6 +15,10 @@
 	relative to the -1.0..1.0 height of the JSUI instance; we ignore the width
 	completely.
 
+    RELEASES:
+        1.0.0, 2006-xx-xx: original.
+        1.0.1, 2019-08-02: new message: "set [x] [y] [db]".
+
 	TODO:
 		- Swatch input methods for Stevie.
         - Remove the scribble-strip machinery - we have textbrick for that now.
@@ -261,7 +265,7 @@ function announce() {
 	var g = new Global(MYGLOBAL);
 
 	if (g.announced === undefined) {
-		post("| cassiel.krellmixer\n");
+		post("| cassiel.krellmixer 1.0.1\n");
 		post("| nick rothwell, nick@cassiel.com / http://cassiel.com\n");
 		g.announced = true;
 	}
@@ -589,6 +593,14 @@ function setting2db00(setting) {
 	}
 }
 
+function db2setting(db) {
+    if (db > 0) {
+        return KNOB_UNITY + (1 - KNOB_UNITY) * db / KNOB_MAX_DB;
+    } else {
+        return KNOB_UNITY - KNOB_UNITY * db / KNOB_MIN_DB;
+    }
+}
+
 /**	We stick to integral dB's for the on-screen display! */
 
 function dbText(db00) {
@@ -695,6 +707,21 @@ function ondrag(x, y, but, cmd, shift) {
 
 		refresh();
 	}
+}
+
+/*  NEW: we now support messages to set matrix values via message.
+    (No time right now to reverse the dB mapping, */
+
+function set(x, y, db) {
+    if (x >= 0 && x < g_CellsAcross && y >= 0 && y < g_CellsDown) {
+        var cell = g_TheCells[x][y];
+        setCellAndMatrix(cell, db2setting(db));
+        /*void*/ recalculateColourIndex(cell);
+        rebuildSprites(cell);
+        drawLive(cell, false);
+    } else {
+        error("cell coordinates out of range: (" + x + ", " + y + ")");
+    }
 }
 
 /*	Save and restore values (via pattr). We want a solution where saved matrix
