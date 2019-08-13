@@ -18,6 +18,7 @@
     RELEASES:
         1.0.0, 2006-xx-xx: original.
         1.0.1, 2019-08-02: new message: "set [x] [y] [db]".
+        1.0.2, 2019-08-13: white dB text rather than black.
 
 	TODO:
 		- Swatch input methods for Stevie.
@@ -84,7 +85,7 @@ var SINGLE_OUT = [NAME_OUT];
 var CELL_OFF = new COLOUR(0.6, 0.6, 0.6);
 var PANEL_BG = new COLOUR(0.3, 0.3, 0.3);		//	Background colour
 var DOT_COLOUR = new COLOUR(1, 1, 1);			//	Central dot
-var TEXT_COLOUR = new COLOUR(0, 0, 0);			//	dB text
+var TEXT_COLOUR = new COLOUR(1, 1, 1);			//	dB text
 var HIGHLIGHT_COLOUR = new COLOUR(1, 1, 1);		//	Highlight ring
 var NEEDLE_COLOUR = new COLOUR(0, 0, 0);		//	Needle
 
